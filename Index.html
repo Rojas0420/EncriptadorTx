@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap" rel="stylesheet">
+    <title> Encriptador Texto </title>
+</head>
+<body>
+
+    <header>
+        <img  class="logo-alura" src="/Img/alura.jpg" alt="Simbolo de Alura Latam">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="area1" cols="30" rows="10" placeholder="Escriba aqui el Texto..."></textarea>
+            <div>
+                <h6 class="informacionimportante"> !Solo letras minusculas y sin acentos !</h6>
+            </div>
+            <div class="botones">
+                <button class="boton_encriptar" onclick="botonEncriptar()"> Encriptar </button>
+                <button class="boton_desencriptar" onclick="botonDesencriptar()"> Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje_encriptado" cols="30" rows="10" placeholder="Ningun Mensaje Fue Encontrado..."></textarea>
+            <div>
+                <button class="copiar_texto">Copiar Mensaje</button>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <p class="pies">&copy; 2024 Página web Desarrollado por Ing. FelipeRojas. Todos los derechos reservados.</p>
+</footer>
+    <script src="Js.js"> </script>
+</body>
+</html>

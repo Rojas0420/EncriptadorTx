@@ -1,0 +1,133 @@
+*{
+    background: rgb(2, 2, 29);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+   
+}
+
+.logo-alura{
+    padding-top: 1%;
+    margin-left: 1%;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-left:280px;
+    margin-bottom: 1px;
+}
+
+.area1{
+    font-family: "Amarante", serif;
+    font-style: normal;
+    background-color: rgb(245, 207, 207);
+    border-radius: 24px;
+    border: none;
+    color :black;
+    margin-top: 40px;
+    padding-left: 200px;
+    text-transform: lowercase;
+
+}
+
+::placeholder{
+    color :white;
+}
+
+.area1:focus{
+    outline: none;
+}
+
+
+.mensaje_encriptado{
+    font-family: "Amarante", serif;
+    font-style: normal;
+    font-weight: 100;
+    background-color: rgb(248, 245, 245);
+    background-image: url("Img/robot.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 25px;
+    color:black;
+    width: 400px;
+    height: 780px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 180px;
+    position:fixed;
+}
+.mensaje_encriptado:focus{
+    outline: none;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 250px;
+    
+
+}
+
+.boton_desencriptar{
+    font-family: "Amarante", serif;
+    font-style: normal;
+    background: white;
+    border: 3px solid rgb(245, 6, 6);
+    border-radius: 24px;
+    color: blue;
+    cursor: pointer;
+    height: 70px;
+    margin-left: 30px;
+    width: 330px;
+}
+
+.boton_encriptar{  
+    
+background: white;
+
+font-family: "Amarante", serif;
+font-style: normal;
+border: 3px solid rgb(247, 17, 17);
+border-radius: 24px;
+color: blue;
+cursor: pointer;
+height: 70px;
+margin-left: 20px;
+width: 330px;        
+}
+
+.copiar_texto{
+font-family: "Amarante", serif;
+font-style: normal;
+background: white;
+border: px solid blue;
+border-radius: 24px;
+color: blue;
+cursor: pointer;
+border: 3px solid rgb(247, 17, 17);
+height: 70px;
+margin-left: 150px;
+margin-top: 745px;
+position: absolute;
+width: 330px;  
+}
+
+.informacionimportante{
+    font-family: Andada;
+    color: white;
+    margin-top: 5px;
+    
+    
+}
+::placeholder{
+    color :black;
+    font-size: 30px
+}
+
+.pies{
+    font-family: 'Andada';
+    color: blue;
+
+}
